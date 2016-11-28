@@ -1,0 +1,10 @@
+applications:
+- path: VaadinStarterApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CC Assignment 3
+  host: CC-Assignment-3
+  disk_quota: 1024M
+  services:
+  - CC Assignment 3-elephantsql
